@@ -41,7 +41,7 @@
         </activity>
         <activity android:name=".SearchView">
         </activity>
-        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDAeLnKyEA_iCuY_YbJP2C8UkooVvyvnWg"/>
+        <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="my-api-key"/>
         <service
             android:name=".LocationService"
             android:enabled="true"
