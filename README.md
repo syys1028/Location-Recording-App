@@ -20,7 +20,19 @@
     ┃ ┣ 📜 route_view.xml               # 구글 맵을 통한 경로 시각화 레이아웃
     ┃ ┣ 📜 search_data.xml              # 검색 결과 표시 레이아웃
 
- 
+ ## 📌 데이터베이스 구조
+ - label: 라벨  
+ - movieName: 영화 제목  
+ - timeStamp: 타임스탬프  
+ - subText: 자막  
+ - voiceText: 음성  
+ - placeText: 장소  
+ - isMainActor: 주연 배우 여부  
+ - actorName: 주연 배우 이름  
+ - actorGender: 주연 배우 성별
+   
+![db](https://github.com/user-attachments/assets/a29ee678-4eb3-4c2b-b9bd-a0e9faf280c9)
+
 ## 📌 주요 기능
 ### - 사용자 로그인 및 인증:
 사용자는 서버에 저장된 자격 정보를 통해 로그인할 수 있으며, 웹 서버와 PHP 스크립트를 사용해 인증을 처리합니다.  
@@ -59,7 +71,7 @@
 서비스 시작 및 종료에 관련된 상수를 정의하며, 앱 내에서 자주 사용하는 고정 값들을 관리합니다.  
 
 ## 📌 개발 환경
-### - 언어 및 프레임워크
+### - 언어 및 환경
 - Java  
 - Android Studio
 
