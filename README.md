@@ -4,6 +4,8 @@
 ## 📌 프로젝트 소개
 이 프로젝트는 사용자의 위치를 백그라운드에서 주기적으로 추적하여 데이터를 기록하고, 구글 맵을 통해 이동 경로를 시각화하는 안드로이드 앱입니다. 사용자는 캘린더를 통해 특정 날짜의 이동 기록을 조회할 수 있으며, 전체 경로 보기와 경로 검색 기능을 통해 위치 정보를 손쉽게 확인할 수 있습니다. 위치 데이터는 SQLite를 이용해 로컬에 저장되며, MariaDB 서버를 통해 원격으로 백업 및 동기화가 가능합니다.
 
+![회원가입](https://github.com/user-attachments/assets/e3944347-078e-40cb-9d44-4280a59ee48e)
+
 ## 📌 폴더 구조
         📂 src/main
         ┣ 📂 ../java/com/example/b2203098_1030
@@ -24,6 +26,18 @@
         ┃ ┣ 📜 route_view.xml             # 구글 맵 경로 시각화 레이아웃
         ┃ ┣ 📜 search_data.xml            # 검색 화면 레이아웃
         ┃ ┣ 📜 signup.xml                 # 회원가입 화면 레이아웃
+        
+        📂 web
+        ┣ 🔎 login.php          # 로그인 페이지
+        ┣ 📜 loginCheck.php     # 로그인 인증 처리
+        ┣ 📜 logout.php         # 로그아웃 처리
+        ┣ 📜 insert.php         # 데이터 삽입 페이지
+        ┣ 📜 insert_ok.php      # 데이터 삽입 처리
+        ┣ 📜 delete_ok.php      # 데이터 삭제 처리
+        ┣ 📜 modify.php         # 데이터 수정 페이지
+        ┣ 📜 modify_ok.php      # 데이터 수정 처리
+        ┣ 📜 json.php           # JSON 형태로 데이터 제공
+        ┣ 📜 phonebook.php      # 사용자 전화번호부 조회 페이지
 
  ## 📌 데이터베이스 구조
 - numID: 고유 번호
