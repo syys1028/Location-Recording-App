@@ -51,6 +51,7 @@
 - phoneNum: 사용자 전화번호
    
 ![db](https://github.com/user-attachments/assets/67778e69-6a0d-431d-808e-a9b6a484352d)
+![웹-동작-동영상](https://github.com/user-attachments/assets/2a7579f1-42bd-46ec-a81b-72d5dede6180)
 
 ## 📌 주요 기능
 ### - 사용자 로그인 및 회원가입:
